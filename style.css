@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #efedd6;
+    background-color: #84b56b;
     font-family: Montserrat;
     margin: 0;
     display: flex;
@@ -17,18 +17,24 @@ body {
 
 h1 {
     margin: 10px;
+    text-align: center;
+    color: white;
+}
+
+small {
+    color: lightgray;
 }
 
 .box { 
-    background-color: steelblue;
+    background-color: white;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 400px;
-    height: 200px;
+    width: 320px;
+    height: 220px;
     margin: 10px;
-    border-radius: 10px;
+    border-radius: 25px;
     box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
     transform: translateX(400%);
     transition: transform 0.4s ease;
@@ -45,7 +51,8 @@ h1 {
     color: black;
     padding: 10px;
     opacity: 0;
-    border-radius: 5px;
+    font-size: 30;
+    width: 300px;
 
     -webkit-transition: all 400ms ease-out;
     -moz-transition: all 400ms ease-out;
@@ -82,14 +89,31 @@ h1 {
     transform: translateX(0);
 }
 
-.box h2 {
-    font-size: 42px;;
-}
-
 img {
     height: 200px;
     width: 300px;
     border-radius: 25px;
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(183, 129, 254);
+}
+
+a:visited {
+    text-decoration: none;
+    color: lightgray;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(183, 129, 254);
+    cursor: pointer;
+}
+
+a:active {
+    text-decoration: none;
+    color: rgb(183, 129, 254);
 }
 
 
