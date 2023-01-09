@@ -9,7 +9,7 @@ function checkBoxes() {
 
     boxes.forEach(box => {
         const boxTop = box.getBoundingClientRect().top
-            // ^^ returns DOMRect rectangle object and tells an element's position relative to the viewport
+            // ^^ returns DOMRect (rectangle) object and tells an element's position relative to the viewport
     
         if (boxTop < triggerBottom) {
             box.classList.add('show')
